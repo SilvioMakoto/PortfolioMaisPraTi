@@ -1,0 +1,130 @@
+/*Suavisação*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /*background*/
+    background-color: #F2E7DC;
+
+    /*Texto*/
+    color: #0d0d0d;
+    text-align: justify;
+    width: 85%;
+    margin: auto;    
+}
+section {
+    padding: 64px 256px;
+    /* substituido pelo shortcode a cima
+    padding: 64px 256px 64px 256px;  
+            ou
+    padding-left: 256px;
+    padding-right: 256px;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    */
+}
+
+/*Tabela*/
+table {
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+td,
+th {
+    border: #000 solid 1px;
+    border-radius: 4px;
+    text-align: center;
+    /*
+    background-color: #A9D9D0;
+    border-width: ;
+    border-style: ;
+    border-color: #000 solid;
+    border-radius: 4px;*/
+    text-align: center;
+}
+tr {
+    background-color: #038C7F;
+}
+
+/*Links*/
+a:link {
+    color:#F2E7DC;
+}
+a:visited {
+    color:#95bfb8;
+}
+a:hover {
+    color:#038C7F
+}
+a:active {
+    color: aquamarine;
+}
+a {
+    color: #F2E7DC;
+}
+
+/*Alinhamento e Tamanho*/
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/*Titulo, Texto e Parágrafos*/
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+h3{    
+    color: #000;
+}
+
+/*Imagem*/
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/*Classes e IDs*/
+.bookTitle {
+    background-color: #A9D9D0;
+    color: #027373;
+    text-align: center;
+}
+#sectionHP, 
+#sectionFP, 
+#sectionBM {
+    background-color: #A9D9D0;
+}
+#header {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding:  20px;
+    margin-bottom: 0px;    
+}
+#sumary {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#yourLibrary {
+    text-indent: 0px; /*esta linha é para não herdar a estilização global da biblioteca*/
+    text-align: center;
+}
+
+/*Rodapé*/
+footer {
+    background-color: #038c7f;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}

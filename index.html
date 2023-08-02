@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <!-- Arquivo CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Arquivo Javascript-->
+    <script src="script.js"></script>
+
+    <!-- Bootstrap-->    
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+        crossorigin="anonymous"
+    >
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+        crossorigin="anonymous"
+    ></script> 
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f972924da3.js" crossorigin="anonymous"></script>      
+    </head>
+<body class="body">
+    <!--Menu Fixado-->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Silvio</a>
+            <button 
+                class="navbar-toggler"
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSuportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Navegação do toggle"
+            >
+                <span class="navbar-toggler-icon"></span>            
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfólio</a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>           
+    </nav>
+
+    <!--Hero Section-->
+    <section class="bgimage" id="inicio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="glass">
+                    <div div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 heroText">
+                        <h1 class="heroTitle">Olá, me chamo Silvio</h1>
+                        <p class="heroDesc">Estudante de Desenvolvimento Front-end</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="sobre">
+        <div class="container mt-5 pt-5">
+            <h2 class="text-center text-white">Sobre Mim</h2>
+            <div class="row mt-4">
+                <!--Imagem Sobre Mim-->
+                <div class="col-lg-4">
+                    <img src="images/foto.jpg" alt="Minha foto" class="aboutImage"/>
+                </div>
+
+                <!--Informações Sobre Mim-->
+                <div class="col-lg-8 text-white">
+                    <p class="aboutMe">
+                        Olá a todos! Sou o Silvio, e estou entusiasmado em iniciar 
+                        minha jornada na área de Tecnologia da Informação. Quero 
+                        aprimorar minhas habilidades em programação, redes, banco 
+                        de dados e segurança da informação para desenvolver soluções 
+                        inovadoras que impactem positivamente nossa sociedade. Acredito 
+                        que o trabalho em equipe e o aprendizado contínuo são essenciais 
+                        para enfrentarmos os desafios tecnológicos atuais, e estou confiante 
+                        de que, ao colaborarmos, alcançaremos resultados surpreendentes 
+                        nesse universo promissor da TI!  🚀
+                    </p>
+                    <div class="row-mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Nome: Silvio Makoto</li>
+                                <li>Idade: 49 anos</li>
+                                <li>Ocupação: Estudante de Desenvolvimento Front-End</li>
+                            </ul>
+                        </div>                        
+                    </div>
+                
+                <!--Paragrafo + infos-->
+                    <div class="row mt-3">
+                        <p class="info">
+                            Eu sou uma pessoa apaixonada pela natureza, e adoro passar o 
+                            tempo ao ar livre, principalmente acampando e explorando novos 
+                            lugares em minha bicicleta. 🌳🚲 Além disso, tenho um apreço 
+                            especial por momentos de relaxamento, e nada melhor do que desfrutar 
+                            de um bom vinho enquanto aprecio a tranquilidade da natureza. 🍷 
+                            Nas horas vagas, gosto de assistir a vídeos interessantes e educativos 
+                            no YouTube, sempre em busca de aprender coisas novas e me manter 
+                            atualizado. 📺 Minha personalidade aventureira e minha curiosidade 
+                            inesgotável tornam minhas experiências únicas e cheias de emoção! Partiu? 🌟😄
+                        </p>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Habilidades Section-->
+    <section id=habilidades>
+        <div class="container mt-5 mb-3">
+            <h2 class="text-center text-white">Habilidades</h2>
+
+            <!-- Linha1-->
+            <div class="row">
+                <!--Coluna1-->
+                <div class="col-lg-4 mt-4 text-center"> 
+                    <div class="card servicesText">
+                        <div class="cardBody"> 
+                            <i class="fa-solid fa-check fa-beat skillIcon"></i>
+                           <h3 class="cardTitle mt-3">HTML</h3>
+                           <p class="cardText mt-3">
+                            Noção e conhecimento básico na aplicação da linguagem HTML.
+                           </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Coluna2-->
+                <div class="col-lg-4 mt-4 text-center"> 
+                    <div class="card servicesText">
+                        <div class="cardBody"> 
+                            <i class="fa-solid fa-check fa-beat skillIcon"></i>
+                           <h3 class="cardTitle mt-3">CSS</h3>
+                           <p class="cardText mt-3">
+                            Noção e conhecimento básico na aplicação da linguagem CSS para estilização web.
+                           </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Coluna3-->
+                <div class="col-lg-4 mt-4 text-center"> 
+                    <div class="card servicesText">
+                        <div class="cardBody"> 
+                            <i class="fa-solid fa-check fa-beat skillIcon"></i>
+                           <h3 class="cardTitle mt-3">JavaScript</h3>
+                           <p class="cardText mt-3">
+                            Noção e conhecimento básico na aplicação da linguagem JavaScript para o desenvolvimento web.
+                           </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!--Linha2-->
+            <div class="row">
+                <!--Coluna1-->
+                <div class="col-lg-4 mt-4 text-center">
+                    <div class="card servicesText">
+                        <div class="cardBody">
+                            <i class="fa-solid fa-check fa-beat skillIcon"></i>
+                         <h3 class="cardTitle mt-3">Visual Studio Code</h3>
+                         <p class="cardText mt-3">
+                            Conhecimento e habilidade básica no uso do editor de código-fonte para o desenvolvimento web.
+                         </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Coluna2-->
+                <div class="col-lg-4 mt-4 text-center">
+                    <div class="card servicesText">
+                        <div class="cardBody">
+                            <i class="fa-solid fa-check fa-beat skillIcon"></i>
+                         <h3 class="cardTitle mt-3">Python</h3>
+                         <p class="cardText mt-3">
+                            Noção básica de uso da linguagem no desenvolvimento de sistemas.
+                         </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Coluna3-->
+                <div class="col-lg-4 mt-4 text-center">
+                    <div class="card servicesText">
+                        <div class="cardBody">
+                            <i class="fa-solid fa-check fa-beat skillIcon"></i>
+                         <h3 class="cardTitle mt-3">SQL</h3>
+                         <p class="cardText mt-3">
+                            Noção básica de uso da linguagem na criação de requisições em banco de dados.
+                         </p>
+                        </div>
+                    </div>
+                </div>
+            </div>                
+        </div>
+
+        </div>
+    </section>
+
+     <!--Contatos Section-->
+
+     <section id="contato">
+        <div class="container mt-5 mb-3 contactContent">
+            <h2 class="text-center text-white">Contate Me</h2>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13808.998456128526!2d-51.23914595!3d-30.087036750000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95198274fc916a63%3A0x480b68bd7a640722!2sCristal%2C%20Porto%20Alegre%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1690489280413!5m2!1spt-BR!2sbr" 
+                        width="545" 
+                        height="279.8" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card servicesText">
+                                <div class="cardBody">
+                                    <i class="fa-solid fa-mobile contactIcon"></i>
+                                    <h3>Telefone</h3>
+                                    <a href="https://api.whatsapp.com/send/?phone=555199565437&text&type=phone_number&app_absent=0" target="blank" class="contactLink">
+                                        <p>(51)9 9956-5437</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="card servicesText">
+                                <div class="cardBody">
+                                   <i class="fa-solid fa-envelope contactIcon"></i>
+                                   <h3>Email</h3>
+                                   <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=15&ct=1690947202&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26RpsCsrfState%3ddde35dae-c67c-51eb-c445-cfe087147424&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015" target="blank" class="contactLink">
+                                       <p>makoto.makoto@gmail.com</p>
+                                   </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4 text-center">
+                        <div class="col-lg-3">
+                            <a href="https://github.com/SilvioMakoto" target="blank">
+                                <i class="fa-brands fa-github-alt socialIcon"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="https://www.linkedin.com/in/silvio-makoto/" target="blank">
+                                <i class="fa-brands fa-linkedin socialIcon"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="https://www.facebook.com/silvio.makoto" target="blank">
+                                <i class="fa-brands fa-facebook socialIcon"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="https://www.instagram.com/makoto_san_br/" target="blank">
+                                <i class="fa-brands fa-instagram socialIcon"></i>
+                            </a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Portfolio Section-->
+    <section id=portfolio>
+        <div class="container mt-5 mb-3">
+            <h2 class="text-center text-white">Portfólio</h2>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <a href="portfolio/Estante/estante.html" class="portfolioLink" target="_blank">
+                        <div class="card portfolioCard">                        
+                            <img 
+                             class="card-img-top" 
+                             src="portfolio/thumbs/estanteThumb.png" 
+                             alt="Card Estante"
+                             style="width: 100%;"
+                             >
+                            <div class="cardBody">
+                                <h3 class=cardTitle>Projeto Estante de Livros</h3>
+                                <p class="cardText text-center mb-3">
+                                    No meu primeiro projeto envolvendo HTML e CSS, tive a
+                                    oportunidade de participar do curso "Do Zero ao Primeiro Site",
+                                    promovido pelo grupo +Prati. Nessa experiência, dei meus 
+                                    primeiros passos no desenvolvimento web e aprendi a trabalhar 
+                                    com divisões, imagens, listas ordenadas e tabelas.
+                                </p>                            
+                            </div>                        
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a href="portfolio/Locadora/index.html" target="_blank" class="portfolioLink">
+                        <div class="card portfolioCard">
+                            <img 
+                                class="card-img-top" 
+                                src="portfolio/thumbs/locadoraThumb.png" 
+                                alt="Card Locadora"
+                                style="width: 100%;"
+                                >
+                            <div class="cardBody">
+                                <h3 class=cardTitle>Projeto Locadora</h3>
+                                <p class="cardText text-center">
+                                    Nesse projeto, criei um controle de busca para uma locadora 
+                                    chamado "Locadora 2000", usando HTML, CSS e JavaScript. 
+                                    Desenvolvi tudo durante o curso "Do Zero ao Primeiro Site", 
+                                    oferecido pelo grupo +Prati. Foi uma experiência incrível para 
+                                    começar a aprender sobre desenvolvimento web.
+                                </p>                                                          
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <a href="portfolio/Mario/index.html" target="_blank" class="portfolioLink">
+                        <div class="card portfolioCard">
+                            <img 
+                                class="card-img-top" 
+                                src="portfolio/thumbs/marioThumb.png" 
+                                alt="Card Mario"
+                                style="width: 100%;"
+                                >
+                            <div class="cardBody">
+                                <h3 class=cardTitle>Projeto Mario Web</h3>
+                                <p class="cardText text-center">
+                                    No âmbito do curso "Do Zero ao Primeiro Site", promovido 
+                                    pelo grupo +Prati, desenvolvi um jogo web intitulado "Mario 
+                                    Jump". Essa foi minha primeira incursão no desenvolvimento 
+                                    web com a aplicação do JavaScript.
+                                </p>                            
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a href="portfolio/Cartao/index.html" target="_blank" class="portfolioLink">
+                        <div class="card portfolioCard">
+                            <img 
+                                class="card-img-top" 
+                                src="portfolio/thumbs/cartaoThumb.png" 
+                                alt="Card Locadora"
+                                style="width: 100%;"
+                                >
+                            <div class="cardBody">
+                                <h3 class=cardTitle>Projeto Cartão de Visita</h3>
+                                <p class="cardText text-center"> 
+                                    Neste projeto foi criado um cartão de visitas "flipável"
+                                    através do uso das tecnologias HTML e CSS. Este trabalho
+                                    foi desenvolvido no curso "Do Zero ao Primeiro Site", ofertado
+                                    pelo grupo +Prati.
+                                </p>                            
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       
+
+    <footer class="text-center footer">
+        <div class="container p-4 pb-0">
+            <div class="row mt-4 mb-4">
+                <div class="col-lg-3">
+                    <a href="https://github.com/SilvioMakoto"target="_blank"><i class="fa-brands fa-github-alt footerIcon"></i></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://www.linkedin.com/in/silvio-makoto/"target="_blank"><i class="fa-brands fa-linkedin footerIcon"></i></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://www.facebook.com/silvio.makoto"target="_blank"><i class="fa-brands fa-facebook footerIcon"></i></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://www.instagram.com/makoto_san_br/" target="_blank"><i class="fa-brands fa-instagram footerIcon" "></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 footerDev">
+            <p>Desenvolvido por Silvio Makoto</p>
+        </div>
+    </footer>    
+</body>
+</html>
